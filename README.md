@@ -1,65 +1,70 @@
+# Getting Started with Create React App
 
-Intructions :
-Step 1: Install Node.js and npm (Node Package Manager)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-If you haven't already, download and install Node.js from [nodejs.org](https://nodejs.org/). npm comes bundled with Node.js.
+## Available Scripts
 
-Step 2: Create a New React Project
+In the project directory, you can run:
 
-Open your terminal or command prompt and run the following command to create a new React project:
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-npx create-react-app my-react-project
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-Replace `my-react-project` with the desired name of your project.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Step 3: Navigate to the Project Directory
+### `npm run build`
 
-Change into the newly created project directory:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-cd my-react-project
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-Step 4: Create a Components Folder
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Inside the `src` directory of your project, create a new folder named `components`:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-mkdir src/components
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-Step 5: Inside the `src/components` directory, create a new file named `BookDetailsPage.js`
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Step 6: Inside the `src/components` directory, create a new file named `BooksHomepage.js
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Step 7: Start the Development Server
+### Analyzing the Bundle Size
 
-Run the following command to start the development server and open your new React project in the default web browser:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-Step 8: Explore and Develop
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Your new React project is now set up and running! You can start exploring the project structure and developing your application.
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Cloning this Repo :
+### `npm run build` fails to minify
 
-Open the terminal and run 
-
-git clone https://github.com/sravanthtammina558/Hirademy-Intern-task
-
-Go to the directory and run
-
-npm install
-This will install necessary dependencies
-
-npm start
-
-To run the Deployement Server
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
